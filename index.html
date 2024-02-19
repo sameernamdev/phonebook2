@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+       <div class="container">
+        <div class="row">
+            <div class="col1">
+               <h1>Phonebook</h1>
+            </div>                      
+        </div>
+        <div class="row">
+            <div class="col2  ">
+                <h2>Search</h2>
+                <p><input type="search" placeholder="Enter the contact you want to search" class="search"> <ion-icon name="search-circle-outline" class="icon"></ion-icon></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col3">
+                <p>Name <input type="text" placeholder="Enter name" class="t1"></p>
+                <p>Phone <input type="number" placeholder="Enter phone number" class="t2"></p>
+                <p>E-mail <input type="email" placeholder="Enter e-mail" class="t3"></p>
+                <button class="btn1">Add contact</button>
+                <button class="btn2">Show contact</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col4" >
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>name</th>
+                            <th>phone number</th>
+                            <th>e-mail</th>
+                            <th>option </th>
+                        </tr>
+                    </thead>
+                    <tbody class="data">
+                      
+                        <!-- <tr>
+                            <td>ajay</td>
+                            <td>77263585326</td>
+                            <td>ajay@122325</td>
+                            <td><ion-icon name="trash-bin-outline"></ion-icon></td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+       </div> 
+       <script src="script.js"></script>
+    </body>
+</html>
